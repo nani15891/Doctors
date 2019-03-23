@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomCalloutView" customModule="Find_a_Doctor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="198" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asa-by-Doq">
+                    <rect key="frame" x="10" y="37" width="178" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="yaM-xH-cc2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qox-YI-3l2">
+                    <rect key="frame" x="10" y="8" width="178" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwg-3x-d79">
+                    <rect key="frame" x="10" y="66" width="178" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Lbu-xe-1x1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAg-aD-Giw">
+                    <rect key="frame" x="49" y="96" width="100" height="34"/>
+                    <color key="backgroundColor" red="0.098039215690000001" green="0.6705882353" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="F8X-tO-3jy"/>
+                        <constraint firstAttribute="height" constant="34" id="vzc-hV-RAg"/>
+                    </constraints>
+                    <state key="normal" title="Details">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="goButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="GOq-lD-ti4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vAg-aD-Giw" firstAttribute="centerX" secondItem="zwg-3x-d79" secondAttribute="centerX" id="3vW-ff-WYv"/>
+                <constraint firstItem="qox-YI-3l2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Amr-do-fI4"/>
+                <constraint firstItem="Asa-by-Doq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Cjr-Ag-EVc"/>
+                <constraint firstItem="vAg-aD-Giw" firstAttribute="top" secondItem="zwg-3x-d79" secondAttribute="bottom" constant="9" id="DOB-0P-LRC"/>
+                <constraint firstAttribute="trailing" secondItem="Asa-by-Doq" secondAttribute="trailing" constant="10" id="DsD-D1-ras"/>
+                <constraint firstItem="zwg-3x-d79" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="LfQ-IE-KCU"/>
+                <constraint firstItem="zwg-3x-d79" firstAttribute="top" secondItem="Asa-by-Doq" secondAttribute="bottom" constant="8" id="Se3-W0-Ba2"/>
+                <constraint firstAttribute="trailing" secondItem="qox-YI-3l2" secondAttribute="trailing" constant="10" id="U6j-cG-7iG"/>
+                <constraint firstItem="Asa-by-Doq" firstAttribute="top" secondItem="qox-YI-3l2" secondAttribute="bottom" constant="8" id="fK2-Qt-6Nd"/>
+                <constraint firstAttribute="bottom" secondItem="vAg-aD-Giw" secondAttribute="bottom" constant="20" id="lJh-AU-17w"/>
+                <constraint firstAttribute="trailing" secondItem="zwg-3x-d79" secondAttribute="trailing" constant="10" id="sXP-0d-StT"/>
+                <constraint firstItem="qox-YI-3l2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="u15-Gw-TWG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="designation" destination="Asa-by-Doq" id="Zsi-Oh-4lO"/>
+                <outlet property="gender" destination="zwg-3x-d79" id="yIe-Kw-bvG"/>
+                <outlet property="name" destination="qox-YI-3l2" id="xqH-8F-kmD"/>
+            </connections>
+            <point key="canvasLocation" x="-52.799999999999997" y="46.776611694152926"/>
+        </view>
+    </objects>
+</document>

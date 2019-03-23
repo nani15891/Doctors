@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35254D862244EBF500FB481D /* MessegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254D852244EBF500FB481D /* MessegesViewController.swift */; };
+		35254D892244EC1100FB481D /* MessegeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254D872244EC1100FB481D /* MessegeTableViewCell.swift */; };
+		35254D8A2244EC1100FB481D /* MessegeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35254D882244EC1100FB481D /* MessegeTableViewCell.xib */; };
+		35254D8F2244FB6800FB481D /* CustomAnnotationPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254D8D2244FB6800FB481D /* CustomAnnotationPin.swift */; };
+		35254D932244FD5700FB481D /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254D922244FD5700FB481D /* CustomAnnotation.swift */; };
+		35254D952245066D00FB481D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35254D942245066D00FB481D /* MapViewController.swift */; };
+		891A4A100BDF0806C4496CD1 /* Pods_Find_a_Doctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E117F0BDDC7AB4F8CFCE74C5 /* Pods_Find_a_Doctor.framework */; };
+		CB1E59092245F6DB00F3DC2C /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB1E59072245F6DA00F3DC2C /* CustomCalloutView.xib */; };
+		CB1E590A2245F6DB00F3DC2C /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E59082245F6DA00F3DC2C /* CustomCalloutView.swift */; };
+		CB1E590D2245F92C00F3DC2C /* DoctorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1E590C2245F92C00F3DC2C /* DoctorDetailsViewController.swift */; };
+		CB22E6F02244B5CF0046A982 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22E6EF2244B5CF0046A982 /* ProfileViewController.swift */; };
+		CB22E6F32244B7E30046A982 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22E6F22244B7E30046A982 /* ForgotPasswordViewController.swift */; };
+		CB22E6F522451A8C0046A982 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22E6F422451A8C0046A982 /* SettingsViewController.swift */; };
+		CBEF96272243739900B982AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF96262243739900B982AC /* AppDelegate.swift */; };
+		CBEF962C2243739900B982AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF962A2243739900B982AC /* Main.storyboard */; };
+		CBEF962E2243739C00B982AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF962D2243739C00B982AC /* Assets.xcassets */; };
+		CBEF96312243739C00B982AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF962F2243739C00B982AC /* LaunchScreen.storyboard */; };
+		CBEF963A2243751C00B982AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF96392243751C00B982AC /* LoginViewController.swift */; };
+		CBEF964222438CDF00B982AC /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF963C22438CDF00B982AC /* LoginCell.swift */; };
+		CBEF964322438CDF00B982AC /* LoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEF963D22438CDF00B982AC /* LoginCell.xib */; };
+		CBEF964422438CDF00B982AC /* SignInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF963E22438CDF00B982AC /* SignInCell.swift */; };
+		CBEF964522438CDF00B982AC /* SignInCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEF963F22438CDF00B982AC /* SignInCell.xib */; };
+		CBEF964622438CDF00B982AC /* ForgetPasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF964022438CDF00B982AC /* ForgetPasswordCell.swift */; };
+		CBEF964722438CDF00B982AC /* ForgetPasswordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEF964122438CDF00B982AC /* ForgetPasswordCell.xib */; };
+		CBEF964D22439D4A00B982AC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF964C22439D4A00B982AC /* RegistrationViewController.swift */; };
+		CBEF96502243A3F100B982AC /* SignUPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF964E2243A3F100B982AC /* SignUPTableViewCell.swift */; };
+		CBEF96512243A3F100B982AC /* SignUPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEF964F2243A3F100B982AC /* SignUPTableViewCell.xib */; };
+		CBEF96542243A52400B982AC /* GenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBEF96522243A52400B982AC /* GenderTableViewCell.xib */; };
+		CBEF96552243A52400B982AC /* GenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF96532243A52400B982AC /* GenderTableViewCell.swift */; };
+		CBEF96572243A5D800B982AC /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF96562243A5D700B982AC /* TextFieldMaxLengths.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB7D51103CB6B5A689764D5 /* Pods-Find a Doctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find a Doctor.release.xcconfig"; path = "Target Support Files/Pods-Find a Doctor/Pods-Find a Doctor.release.xcconfig"; sourceTree = "<group>"; };
+		35254D852244EBF500FB481D /* MessegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegesViewController.swift; sourceTree = "<group>"; };
+		35254D872244EC1100FB481D /* MessegeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegeTableViewCell.swift; sourceTree = "<group>"; };
+		35254D882244EC1100FB481D /* MessegeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessegeTableViewCell.xib; sourceTree = "<group>"; };
+		35254D8D2244FB6800FB481D /* CustomAnnotationPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationPin.swift; sourceTree = "<group>"; };
+		35254D922244FD5700FB481D /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		35254D942245066D00FB481D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CB1E59072245F6DA00F3DC2C /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
+		CB1E59082245F6DA00F3DC2C /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		CB1E590C2245F92C00F3DC2C /* DoctorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsViewController.swift; sourceTree = "<group>"; };
+		CB22E6EF2244B5CF0046A982 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CB22E6F22244B7E30046A982 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		CB22E6F422451A8C0046A982 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CBEF96232243739900B982AC /* Find a Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find a Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF96262243739900B982AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBEF962B2243739900B982AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBEF962D2243739C00B982AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBEF96302243739C00B982AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBEF96322243739C00B982AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF96392243751C00B982AC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBEF963C22438CDF00B982AC /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		CBEF963D22438CDF00B982AC /* LoginCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginCell.xib; sourceTree = "<group>"; };
+		CBEF963E22438CDF00B982AC /* SignInCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInCell.swift; sourceTree = "<group>"; };
+		CBEF963F22438CDF00B982AC /* SignInCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInCell.xib; sourceTree = "<group>"; };
+		CBEF964022438CDF00B982AC /* ForgetPasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgetPasswordCell.swift; sourceTree = "<group>"; };
+		CBEF964122438CDF00B982AC /* ForgetPasswordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPasswordCell.xib; sourceTree = "<group>"; };
+		CBEF964C22439D4A00B982AC /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		CBEF964E2243A3F100B982AC /* SignUPTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPTableViewCell.swift; sourceTree = "<group>"; };
+		CBEF964F2243A3F100B982AC /* SignUPTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUPTableViewCell.xib; sourceTree = "<group>"; };
+		CBEF96522243A52400B982AC /* GenderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenderTableViewCell.xib; sourceTree = "<group>"; };
+		CBEF96532243A52400B982AC /* GenderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderTableViewCell.swift; sourceTree = "<group>"; };
+		CBEF96562243A5D700B982AC /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
+		E117F0BDDC7AB4F8CFCE74C5 /* Pods_Find_a_Doctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_a_Doctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6639203FE7CA56F09F42EE4 /* Pods-Find a Doctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find a Doctor.debug.xcconfig"; path = "Target Support Files/Pods-Find a Doctor/Pods-Find a Doctor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBEF96202243739900B982AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A4A100BDF0806C4496CD1 /* Pods_Find_a_Doctor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35254D8B2244F0F500FB481D /* MessegesVC */ = {
+			isa = PBXGroup;
+			children = (
+				35254D852244EBF500FB481D /* MessegesViewController.swift */,
+			);
+			path = MessegesVC;
+			sourceTree = "<group>";
+		};
+		38D815080F22B7FBD885A699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E117F0BDDC7AB4F8CFCE74C5 /* Pods_Find_a_Doctor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1E590B2245F8D900F3DC2C /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB22E6F422451A8C0046A982 /* SettingsViewController.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		CB22E6CC2244A34F0046A982 /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				35254D942245066D00FB481D /* MapViewController.swift */,
+				CB1E59082245F6DA00F3DC2C /* CustomCalloutView.swift */,
+				CB1E59072245F6DA00F3DC2C /* CustomCalloutView.xib */,
+				35254D8D2244FB6800FB481D /* CustomAnnotationPin.swift */,
+				35254D922244FD5700FB481D /* CustomAnnotation.swift */,
+				CB1E590C2245F92C00F3DC2C /* DoctorDetailsViewController.swift */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
+		CB22E6EE2244B5B80046A982 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB22E6EF2244B5CF0046A982 /* ProfileViewController.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		CB22E6F12244B7BD0046A982 /* forgotPassWordVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB22E6F22244B7E30046A982 /* ForgotPasswordViewController.swift */,
+			);
+			path = forgotPassWordVC;
+			sourceTree = "<group>";
+		};
+		CBEF961A2243739800B982AC = {
+			isa = PBXGroup;
+			children = (
+				CBEF96252243739900B982AC /* Find a Doctor */,
+				CBEF96242243739900B982AC /* Products */,
+				D5C305C13C10A51BF672C109 /* Pods */,
+				38D815080F22B7FBD885A699 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBEF96242243739900B982AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF96232243739900B982AC /* Find a Doctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBEF96252243739900B982AC /* Find a Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF96562243A5D700B982AC /* TextFieldMaxLengths.swift */,
+				CBEF96262243739900B982AC /* AppDelegate.swift */,
+				CBEF9638224374FE00B982AC /* Controllers */,
+				CBEF963B22438CB900B982AC /* CustomCells */,
+				CBEF962A2243739900B982AC /* Main.storyboard */,
+				CBEF962D2243739C00B982AC /* Assets.xcassets */,
+				CBEF962F2243739C00B982AC /* LaunchScreen.storyboard */,
+				CBEF96322243739C00B982AC /* Info.plist */,
+			);
+			path = "Find a Doctor";
+			sourceTree = "<group>";
+		};
+		CBEF9638224374FE00B982AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E590B2245F8D900F3DC2C /* SettingsVC */,
+				CB22E6F12244B7BD0046A982 /* forgotPassWordVC */,
+				CB22E6EE2244B5B80046A982 /* ProfileVC */,
+				CB22E6CC2244A34F0046A982 /* MapVC */,
+				CBEF964A22439D0800B982AC /* LoginVC */,
+				CBEF964B22439D1D00B982AC /* RegistrationVC */,
+				35254D8B2244F0F500FB481D /* MessegesVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CBEF963B22438CB900B982AC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF964022438CDF00B982AC /* ForgetPasswordCell.swift */,
+				CBEF964122438CDF00B982AC /* ForgetPasswordCell.xib */,
+				CBEF963C22438CDF00B982AC /* LoginCell.swift */,
+				CBEF963D22438CDF00B982AC /* LoginCell.xib */,
+				CBEF963E22438CDF00B982AC /* SignInCell.swift */,
+				CBEF963F22438CDF00B982AC /* SignInCell.xib */,
+				35254D872244EC1100FB481D /* MessegeTableViewCell.swift */,
+				35254D882244EC1100FB481D /* MessegeTableViewCell.xib */,
+				CBEF96582243ADF500B982AC /* RegisterCells */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		CBEF964A22439D0800B982AC /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF96392243751C00B982AC /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		CBEF964B22439D1D00B982AC /* RegistrationVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF964C22439D4A00B982AC /* RegistrationViewController.swift */,
+			);
+			path = RegistrationVC;
+			sourceTree = "<group>";
+		};
+		CBEF96582243ADF500B982AC /* RegisterCells */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF964E2243A3F100B982AC /* SignUPTableViewCell.swift */,
+				CBEF964F2243A3F100B982AC /* SignUPTableViewCell.xib */,
+				CBEF96532243A52400B982AC /* GenderTableViewCell.swift */,
+				CBEF96522243A52400B982AC /* GenderTableViewCell.xib */,
+			);
+			path = RegisterCells;
+			sourceTree = "<group>";
+		};
+		D5C305C13C10A51BF672C109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6639203FE7CA56F09F42EE4 /* Pods-Find a Doctor.debug.xcconfig */,
+				2AB7D51103CB6B5A689764D5 /* Pods-Find a Doctor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBEF96222243739900B982AC /* Find a Doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF96352243739C00B982AC /* Build configuration list for PBXNativeTarget "Find a Doctor" */;
+			buildPhases = (
+				6B1B480B031E5468F33BC8ED /* [CP] Check Pods Manifest.lock */,
+				CBEF961F2243739900B982AC /* Sources */,
+				CBEF96202243739900B982AC /* Frameworks */,
+				CBEF96212243739900B982AC /* Resources */,
+				37D5E615E37E58C9D7F39B10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find a Doctor";
+			productName = "Find a Doctor";
+			productReference = CBEF96232243739900B982AC /* Find a Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBEF961B2243739800B982AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Calibrage Info System Pvt Limitd";
+				TargetAttributes = {
+					CBEF96222243739900B982AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CBEF961E2243739800B982AC /* Build configuration list for PBXProject "Find a Doctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBEF961A2243739800B982AC;
+			productRefGroup = CBEF96242243739900B982AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEF96222243739900B982AC /* Find a Doctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBEF96212243739900B982AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF96542243A52400B982AC /* GenderTableViewCell.xib in Resources */,
+				CBEF96312243739C00B982AC /* LaunchScreen.storyboard in Resources */,
+				CBEF96512243A3F100B982AC /* SignUPTableViewCell.xib in Resources */,
+				CBEF964722438CDF00B982AC /* ForgetPasswordCell.xib in Resources */,
+				CBEF962E2243739C00B982AC /* Assets.xcassets in Resources */,
+				CB1E59092245F6DB00F3DC2C /* CustomCalloutView.xib in Resources */,
+				CBEF962C2243739900B982AC /* Main.storyboard in Resources */,
+				CBEF964522438CDF00B982AC /* SignInCell.xib in Resources */,
+				CBEF964322438CDF00B982AC /* LoginCell.xib in Resources */,
+				35254D8A2244EC1100FB481D /* MessegeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37D5E615E37E58C9D7F39B10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find a Doctor/Pods-Find a Doctor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Find a Doctor/Pods-Find a Doctor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Find a Doctor/Pods-Find a Doctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1B480B031E5468F33BC8ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find a Doctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBEF961F2243739900B982AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E590D2245F92C00F3DC2C /* DoctorDetailsViewController.swift in Sources */,
+				35254D892244EC1100FB481D /* MessegeTableViewCell.swift in Sources */,
+				35254D862244EBF500FB481D /* MessegesViewController.swift in Sources */,
+				CBEF964422438CDF00B982AC /* SignInCell.swift in Sources */,
+				CBEF96552243A52400B982AC /* GenderTableViewCell.swift in Sources */,
+				CBEF964622438CDF00B982AC /* ForgetPasswordCell.swift in Sources */,
+				CBEF963A2243751C00B982AC /* LoginViewController.swift in Sources */,
+				CBEF964D22439D4A00B982AC /* RegistrationViewController.swift in Sources */,
+				CB22E6F32244B7E30046A982 /* ForgotPasswordViewController.swift in Sources */,
+				CB1E590A2245F6DB00F3DC2C /* CustomCalloutView.swift in Sources */,
+				35254D952245066D00FB481D /* MapViewController.swift in Sources */,
+				35254D932244FD5700FB481D /* CustomAnnotation.swift in Sources */,
+				35254D8F2244FB6800FB481D /* CustomAnnotationPin.swift in Sources */,
+				CBEF96502243A3F100B982AC /* SignUPTableViewCell.swift in Sources */,
+				CBEF96272243739900B982AC /* AppDelegate.swift in Sources */,
+				CB22E6F02244B5CF0046A982 /* ProfileViewController.swift in Sources */,
+				CBEF96572243A5D800B982AC /* TextFieldMaxLengths.swift in Sources */,
+				CBEF964222438CDF00B982AC /* LoginCell.swift in Sources */,
+				CB22E6F522451A8C0046A982 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBEF962A2243739900B982AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEF962B2243739900B982AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBEF962F2243739C00B982AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBEF96302243739C00B982AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBEF96332243739C00B982AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBEF96342243739C00B982AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBEF96362243739C00B982AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6639203FE7CA56F09F42EE4 /* Pods-Find a Doctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find a Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Calibrage-Info-System-Pvt-Limitd.Find-a-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBEF96372243739C00B982AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB7D51103CB6B5A689764D5 /* Pods-Find a Doctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Find a Doctor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Calibrage-Info-System-Pvt-Limitd.Find-a-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEF961E2243739800B982AC /* Build configuration list for PBXProject "Find a Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF96332243739C00B982AC /* Debug */,
+				CBEF96342243739C00B982AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF96352243739C00B982AC /* Build configuration list for PBXNativeTarget "Find a Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF96362243739C00B982AC /* Debug */,
+				CBEF96372243739C00B982AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBEF961B2243739800B982AC /* Project object */;
+}
