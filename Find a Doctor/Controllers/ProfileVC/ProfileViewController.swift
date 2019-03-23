@@ -67,6 +67,7 @@ class ProfileViewController : UIViewController, UITableViewDelegate,UITableViewD
         
         
         self.navigationItem.title = "Profile"
+        print("Deleeeteee")
         // IQKeyboardManager.sharedManager().toolbarDoneBarButtonItemText = "Done"
         
         //    signeUpOutLet.setTitle("Submit" , for: .normal)
